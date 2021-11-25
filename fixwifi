@@ -16,7 +16,7 @@
 wirelessPCI=$(lspci |grep "Wireless 7260")
 
 # logical name
-interface="wlp3s0"
+interface="wlo1"
 
 # Intel voodoo. The setting below is known to work with the Wireless 7260. If we knew what this value should be
 # for other Intel chipsets, this script should work for them as well. Maybe it's the same for multiple chipsets?
